@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeyPulga!</title>
+    <title>Hey Pulga!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -18,7 +18,7 @@
         <div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary ">
                 <div class="container-fluid">
-                    <a class="navbar-brand " href="#"> <img class="Logo" src="./img/Logo.jpg" alt=""></a>
+                    <a class="navbar-brand"> <img class="Logo" src="./img/Logo.jpg"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -27,13 +27,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="./Index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Cuenta</a>
+                                <a class="nav-link active" href="./Pages/Cuenta.html">Cuenta</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Nosotros</a>
+                                <a class="nav-link active" href="./Pages/Contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./Pages/Nosotros.html">Nosotros</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle active" href="#" role="button"
@@ -41,9 +44,9 @@
                                     Tienda
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Niño</a></li>
-                                    <li><a class="dropdown-item" href="#">Hombre</a></li>
-                                    <li><a class="dropdown-item" href="#">Mujer</a></li>
+                                    <li><a class="dropdown-item" href="./Pages/niño.html">Niño</a></li>
+                                    <li><a class="dropdown-item" href="./Pages/Hombre.html">Hombre</a></li>
+                                    <li><a class="dropdown-item" href="./Pages/mujer.html">Mujer</a></li>
                                 </ul>
                             </li>
 
@@ -59,11 +62,12 @@
         </div>
     </header>
     <Main>
+        <h1 class="centrar">¡Somos pequeños, pero damos saltos grandes!</h1>
         <section>
             <button>
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item activ"><!--activar-->
                             <img src="./img/hombre.jpg" class="d-block w-100">
                         </div>
                         <div class="carousel-item">
@@ -83,50 +87,73 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
-                </div>
+                </div>          
             </button>
-            <!--<p>incertar carrusel aca</p> -->
+        </section>
+        <section>
 
-            </div>
+            <div class="weare">
+
+                <h2>Empresa Familiar</h2>
+                <p >estamos emocionados de recibirte como parte de la familia hey pulga! Somos una
+                    familia de 4, lanzando nuestra propia marca, Hey Pulga!. Volvimos a Chile desde Peru el 2021 y
+                    quisimos taer lo mejor del algodon Peruano, algodón suave durable hipoalergenico y resistente.
+                    Para que cambie tu vida como cambio la nuestra!
+                    puedes ver nuestra pagina "nosotros" para saber mas... </p>
+
+                <!--agregar boton-->
         </section>
+
         <section>
-            <div class="acerca-de-nosotros">
-                <!--incertar nosotros y weas> -->
-                <p>hikabda
-                </p>
-        </section>
-        <div class="acerca-de-nosotros">
-            <!--incertar nosotros y weas> -->
-            <p>parafo</p>
-        </div>
-        <section>
-            <div class="shop-Categorias">
+            <br>
+            <h2 class="subtitulo centrar">Categorias</h2>
+            <div>
                 <!-- mini grid con categorias clickeables-->
-                <p>asd</p>
-            </div>
+                <div class="grilla">
+                    <div class="hijo niño">
+                        <h4 class="fondito">Niños</h4>
+                    </div>
+                    <div class="hijo match">
+                        <h4 class="fondito">Match</h4>
+                    </div>
+                    <div class="hijo hombre">
+                        <h4 class="fondito">Hombre</h4>
+                    </div>
+                    <div class="hijo mujer">
+                        <h4 class="fondito">Mujer</h4>
+                    </div>
+                </div>
         </section>
-        <section>
-            <div class="inicio-index">
+        <!--        <section>
+        
+
+           <div class="inicio-secion">
                 <p>asdasdasd
                 </p>
-                <!-- foto con inicio de sesion-->
+                foto con inicio de sesion
             </div>
-        </section>
+
+        </section> -->
+
     </Main>
     <Footer>
-
-        <nav class="footer">
-            <i class="bi bi-threads"></i>
-            <a href="https://www.threads.net/@heypulga.cl" class="link-footer">Threads</a>
-            <i class="bi bi-instagram"></i>
-            <a href="https://www.instagram.com/heypulga.cl/" class="link-footer">Instagram</a>
-            <i class="bi bi-whatsapp"></i>
-            <a href="https://api.whatsapp.com/message/VR7OSLAK7MAVD1?autoload=1&app_absent=0"
-                class="link-footer">Whastapp</a>
-            </div>
+        <div class="footerend">
+            <nav>
+                <i class="bi bi-threads"></i>
+                <a href="https://www.threads.net/@heypulga.cl" class="link-footer">Threads</a>
+                <i class="bi bi-instagram"></i>
+                <a href="https://www.instagram.com/heypulga.cl/" class="link-footer">Instagram</a>
+                <i class="bi bi-whatsapp"></i>
+                <a href="https://api.whatsapp.com/message/VR7OSLAK7MAVD1?autoload=1&app_absent=0"
+                    class="link-footer">Whastapp</a>
+        </div>
         </nav>
+        </div>
+
+
 
     </Footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
