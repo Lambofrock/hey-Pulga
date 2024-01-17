@@ -1,0 +1,52 @@
+.centrar {
+    text-align: center;
+}
+
+.margen-bot {
+    margin-bottom: 15px
+}
+
+.pulga {
+    margin: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+.row{
+    margin-inline: 0
+    ;
+}
+
+.weare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 20px;
+    margin-top: 1.5rem;
+}
+
+.imagen-nosotros {
+    display: flex;
+    width: 600px;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.sesion-mid {
+    max-width: 400px;
+}
+
+.margin-left {
+    margin-left: 450px;
+}
+
+.card-gap {
+    margin: 10px;
+}
+.alinear {
+    margin-top: 150px;
+    margin-inline: 0;
+}
+   

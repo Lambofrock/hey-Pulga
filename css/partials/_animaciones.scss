@@ -1,0 +1,27 @@
+.slidepls {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 95%;
+    width: 95%;
+    transition: height 1s, width 1s;
+}
+
+.slidepls:hover {
+    height: 100%;
+    width: 110%;
+}
+
+.slidepls1:hover {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 95%;
+    width: 95%;
+    transition: height 1s, width 1s;
+}
+
+.slidepls1:hover {
+    height: 100%;
+    width: 105%;
+}

@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 480px) {
+    .offset-md-2 {
+        text-align: center;
+    }
+
+    .grilla-inicio {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat 4, 1fr;
+        grid-template-areas:
+            "niño"
+            "match"
+            "hombre"
+            "mujer";
+        height: auto;
+        width:auto;
+        .hijo{
+            width: 470px;
+        }
+    
+    }
+
+    .alinear {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+    .text-familia {
+        margin-inline: 0;
+    }
+
+    .margin-left {
+        margin-inline: auto;
+    }
+
+    .disponibilidad {
+        width: max-content;
+    }
+
+    .card {
+        min-width: 460px;
+    }
+}

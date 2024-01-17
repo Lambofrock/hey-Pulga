@@ -1,0 +1,79 @@
+.text-familia {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 20%;
+
+    .fondo-historia {
+
+        padding: 5%;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+.grilla-inicio {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "niño match hombre mujer";
+    gap: 1rem;
+
+    .hijo {
+        height: 300px;
+        width: 300px;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        color: black;
+        align-items: center;
+        transition: hight 1s, width 1s;
+
+    }
+
+    .niño {
+
+        background-image: url("/img/niño.jpg");
+        background-position: center;
+        background-size: cover;
+        grid-area: niño;
+    }
+
+    .match {
+
+        background-image: url("/img/Inicio.jpg");
+        background-position: center;
+        background-size: cover;
+        grid-area: match;
+    }
+
+    .hombre {
+
+        background-image: url("/img/hombre.jpg");
+        background-position: center;
+        background-size: cover;
+        grid-area: hombre;
+        text-align: center;
+
+    }
+
+    .mujer {
+        background-image: url("/img/mujer.jpg");
+        background-position: center;
+        background-size: cover;
+        grid-area: mujer;
+    }
+
+
+
+    .hijo:hover {
+        height: 350px;
+        width: 350px;
+    }
+
+    .fondito {
+        background-color: rgba(255, 255, 255, 0.596);
+        padding-inline: 2%;
+    }
+
+}
