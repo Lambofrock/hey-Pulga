@@ -49,7 +49,7 @@ body {
 }
 
 .match {
-  background-image: url("../img/inicio.jpg");
+  background-image: url("../img/Inicio.jpg");
   background-position: center;
   background-size: cover;
   grid-area: match;
