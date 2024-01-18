@@ -20,7 +20,7 @@
 
 .niño {
 
-    background-image: url("/img/niño.jpg");
+    background-image: url("./img/niño.jpg");
     background-position: center;
     background-size: cover;
     grid-area: niño;
@@ -28,7 +28,7 @@
 
 .match {
 
-    background-image: url("/img/Logo.jpg");
+    background-image: url("./img/Logo.jpg");
     background-position: center;
     background-size: cover;
     grid-area: match;
@@ -36,7 +36,7 @@
 
 .hombre {
 
-    background-image: url("/img/hombre.jpg");
+    background-image: url("../img/hombre.jpg");
     background-position: center;
     background-size: cover;
     grid-area: hombre;
@@ -45,7 +45,7 @@
 }
 
 .mujer {
-    background-image: url("/img/mujer.jpg");
+    background-image: url("../img/mujer.jpg");
     background-position: center;
     background-size: cover;
     grid-area: mujer;
