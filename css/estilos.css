@@ -41,14 +41,14 @@ body {
 }
 
 .niño {
-  background-image: url("./img/niño.jpg");
+  background-image: url("../img/niño.jpg");
   background-position: center;
   background-size: cover;
   grid-area: niño;
 }
 
 .match {
-  background-image: url("./img/Logo.jpg");
+  background-image: url("../img/inicio.jpg");
   background-position: center;
   background-size: cover;
   grid-area: match;
