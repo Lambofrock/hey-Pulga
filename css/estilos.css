@@ -7,18 +7,90 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-body {
-  min-height: 100%;
-}
-
 html {
   height: 100%;
+}
+
+body {
+  min-height: 100%;
 }
 
 .Logo {
   display: flex;
   height: 80px;
   width: 80px;
+}
+
+.grilla-inicio {
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "niño match hombre mujer";
+  gap: 1rem;
+}
+
+.hijo {
+  height: 300px;
+  width: 300px;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  transition: hight 1s, width 1s;
+}
+
+.niño {
+  background-image: url("/img/niño.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-area: niño;
+}
+
+.match {
+  background-image: url("/img/Inicio.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-area: match;
+}
+
+.hombre {
+  background-image: url("/img/hombre.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-area: hombre;
+  text-align: center;
+}
+
+.mujer {
+  background-image: url("/img/mujer.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-area: mujer;
+}
+
+.hijo:hover {
+  height: 350px;
+  width: 350px;
+}
+
+.text-familia {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 20%;
+}
+
+.fondo-historia {
+  padding: 5%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fondito {
+  background-color: rgba(255, 255, 255, 0.596);
+  padding-inline: 2%;
 }
 
 .carrusel-img {
@@ -32,70 +104,6 @@ html {
 
 .fondo-carrusel {
   background-color: black;
-}
-
-.text-familia {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-inline: 20%;
-}
-.text-familia .fondo-historia {
-  padding: 5%;
-  font-size: 20px;
-  text-align: center;
-}
-
-.grilla-inicio {
-  height: 200px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "niño match hombre mujer";
-  gap: 1rem;
-}
-.grilla-inicio .hijo {
-  height: 300px;
-  width: 300px;
-  padding: 2%;
-  display: flex;
-  justify-content: center;
-  color: black;
-  align-items: center;
-  transition: hight 1s, width 1s;
-}
-.grilla-inicio .niño {
-  background-image: url("/img/niño.jpg");
-  background-position: center;
-  background-size: cover;
-  grid-area: niño;
-}
-.grilla-inicio .match {
-  background-image: url("/img/Inicio.jpg");
-  background-position: center;
-  background-size: cover;
-  grid-area: match;
-}
-.grilla-inicio .hombre {
-  background-image: url("/img/hombre.jpg");
-  background-position: center;
-  background-size: cover;
-  grid-area: hombre;
-  text-align: center;
-}
-.grilla-inicio .mujer {
-  background-image: url("/img/mujer.jpg");
-  background-position: center;
-  background-size: cover;
-  grid-area: mujer;
-}
-.grilla-inicio .hijo:hover {
-  height: 350px;
-  width: 350px;
-}
-.grilla-inicio .fondito {
-  background-color: rgba(255, 255, 255, 0.596);
-  padding-inline: 2%;
 }
 
 .centrar {
@@ -187,13 +195,15 @@ footer {
   top: 100%;
   position: sticky;
 }
-footer .footerend {
+
+.footerend {
   text-align: center;
   padding: 10px;
   background-color: whitesmoke;
   margin-top: auto;
 }
-footer a {
+
+a {
   padding: 5px;
 }
 
