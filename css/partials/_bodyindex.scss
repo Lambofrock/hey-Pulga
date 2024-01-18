@@ -1,11 +1,11 @@
-
 .grilla-inicio {
     height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "niño match hombre mujer";
     gap: 1rem;
- }
+}
+
 .hijo {
     height: 300px;
     width: 300px;
@@ -17,6 +17,7 @@
     transition: hight 1s, width 1s;
 
 }
+
 .niño {
 
     background-image: url("/img/niño.jpg");
@@ -42,16 +43,19 @@
     text-align: center;
 
 }
+
 .mujer {
     background-image: url("/img/mujer.jpg");
     background-position: center;
     background-size: cover;
     grid-area: mujer;
 }
+
 .hijo:hover {
     height: 350px;
     width: 350px;
 }
+
 .text-familia {
     text-align: center;
     display: flex;
@@ -59,14 +63,16 @@
     align-items: center;
     margin-inline: 20%;
 
-  
+
 }
+
 .fondo-historia {
 
     padding: 5%;
     font-size: 20px;
     text-align: center;
 }
+
 .fondito {
     background-color: rgba(255, 255, 255, 0.596);
     padding-inline: 2%;
