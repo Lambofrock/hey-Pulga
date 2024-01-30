@@ -39,8 +39,8 @@ body {
   align-items: center;
   transition: hight 1s, width 1s;
 }
-.grilla-inicio .niño {
-  background-image: url("../img/niño.jpg");
+.grilla-inicio .nino {
+  background-image: url("../img/nino.jpg");
   background-position: center;
   background-size: cover;
   grid-area: niño;
@@ -84,8 +84,13 @@ body {
 }
 
 .fondito {
-  background-color: rgba(255, 255, 255, 0.596);
+  background-color: rgba(255, 255, 255, 0.76);
   padding-inline: 2%;
+}
+
+.slidepls {
+  height: 200px;
+  width: 100px;
 }
 
 .carrusel-img {
@@ -142,6 +147,7 @@ body {
 
 .margin-left {
   margin-left: 450px;
+  margin-bottom: 20px;
 }
 
 .card-gap {
@@ -151,6 +157,16 @@ body {
 .alinear {
   margin-top: 150px;
   margin-inline: 0;
+}
+
+.acordeon {
+  margin-inline: 400px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.img-cuenta {
+  width: 100%;
 }
 
 .link {
@@ -169,7 +185,7 @@ body {
 
 .slidepls:hover {
   height: 100%;
-  width: 110%;
+  width: 90%;
 }
 
 .slidepls1:hover {
@@ -183,7 +199,7 @@ body {
 
 .slidepls1:hover {
   height: 100%;
-  width: 105%;
+  width: 95%;
 }
 
 footer {

@@ -17,9 +17,9 @@
     
     }
     
-    .niño {
+    .nino {
     
-        background-image: url("../img/niño.jpg");
+        background-image: url("../img/nino.jpg");
         background-position: center;
         background-size: cover;
         grid-area: niño;
@@ -77,6 +77,10 @@
 }
 
 .fondito {
-    background-color: rgba(255, 255, 255, 0.596);
+    background-color: rgba(255, 255, 255, 0.76);
     padding-inline: 2%;
+}
+.slidepls{
+    height: 200px;
+    width: 100px;
 }
