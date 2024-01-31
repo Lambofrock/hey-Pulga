@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "niño match hombre mujer";
     gap: 1rem;
-    
+
     .hijo {
         height: 300px;
         width: 300px;
@@ -14,43 +14,43 @@
         color: black;
         align-items: center;
         transition: hight 1s, width 1s;
-    
+
     }
-    
+
     .nino {
-    
+
         background-image: url("../img/nino.jpg");
         background-position: center;
         background-size: cover;
         grid-area: niño;
     }
-    
+
     .match {
-    
+
         background-image: url("../img/Inicio.jpg");
         background-position: center;
         background-size: cover;
         grid-area: match;
     }
-    
+
     .hombre {
-    
+
         background-image: url("../img/hombre.jpg");
-    
+
         background-position: center;
         background-size: cover;
         grid-area: hombre;
         text-align: center;
-    
+
     }
-    
+
     .mujer {
         background-image: url("../img/mujer.jpg");
         background-position: center;
         background-size: cover;
         grid-area: mujer;
     }
-    
+
     .hijo:hover {
         height: 350px;
         width: 350px;
@@ -80,7 +80,16 @@
     background-color: rgba(255, 255, 255, 0.76);
     padding-inline: 2%;
 }
-.slidepls{
+
+.slidepls {
     height: 200px;
     width: 100px;
+}
+
+.background-fotiwi {
+
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/img/horizontal\ \(2\).jpg");
+
 }

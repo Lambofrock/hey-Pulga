@@ -93,6 +93,12 @@ body {
   width: 100px;
 }
 
+.background-fotiwi {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("/img/horizontal (2).jpg");
+}
+
 .carrusel-img {
   display: flex;
   justify-content: center;
@@ -108,10 +114,6 @@ body {
 
 .centrar {
   text-align: center;
-}
-
-.margen-bot {
-  margin-bottom: 15px;
 }
 
 .pulga {
