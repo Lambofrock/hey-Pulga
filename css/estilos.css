@@ -38,6 +38,7 @@ body {
   color: black;
   align-items: center;
   transition: hight 1s, width 1s;
+  margin-inline: auto;
 }
 .grilla-inicio .nino {
   background-image: url("../img/nino.jpg");
@@ -171,6 +172,13 @@ body {
   width: 100%;
 }
 
+.media-alinear {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .link {
   text-decoration: none;
   color: black;
@@ -182,12 +190,6 @@ body {
   align-self: center;
   height: 95%;
   width: 95%;
-  transition: height 1s, width 1s;
-}
-
-.slidepls:hover {
-  height: 100%;
-  width: 90%;
 }
 
 .slidepls1:hover {
@@ -253,5 +255,20 @@ a {
   }
   .card {
     min-width: 460px;
+  }
+  .acordeon {
+    margin-inline: 0;
+  }
+  .reel-alinear {
+    margin-inline: 13%;
+  }
+  .media-phone {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .container-fluid {
+    margin: 0;
+    padding: 0;
   }
 }/*# sourceMappingURL=estilos.css.map */

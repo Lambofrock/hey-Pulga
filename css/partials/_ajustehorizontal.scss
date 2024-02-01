@@ -46,6 +46,7 @@
 .alinear {
     margin-top: 150px;
     margin-inline: 0;
+    
 }
 .acordeon{
     margin-inline: 400px
@@ -55,4 +56,10 @@
 }
 .img-cuenta{
     width: 100%    
+}
+.media-alinear{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
