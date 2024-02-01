@@ -234,7 +234,7 @@ a {
     width: auto;
   }
   .grilla-inicio .hijo {
-    width: 470px;
+    width: 100vh;
   }
   .alinear {
     display: flex;
