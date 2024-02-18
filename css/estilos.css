@@ -317,7 +317,7 @@ a {
     padding: 0;
   }
   .card-gap {
-    margin-left: 0;
+    margin-left: 1px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -373,6 +373,6 @@ a {
     padding: 0;
   }
   .card-gap {
-    margin-left: 0;
+    margin-left: 1px;
   }
 }/*# sourceMappingURL=estilos.css.map */
