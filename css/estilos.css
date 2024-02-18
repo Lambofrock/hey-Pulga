@@ -230,6 +230,45 @@ a {
   padding: 5px;
 }
 
+@media screen and (max-width: 992px) {
+  .offset-md-2 {
+    text-align: center;
+  }
+  .grilla-inicio {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 2, 2fr;
+    grid-template-areas: "niño match" "hombre mujer";
+    height: auto;
+    width: auto;
+  }
+  .grilla-inicio .hijo {
+    width: 100vh;
+  }
+  .margin-cuenta {
+    margin-left: 25%;
+    margin-right: auto;
+  }
+  .margin-left {
+    margin-inline: 25%;
+    margin-right: auto;
+  }
+  .disponibilidad {
+    width: -moz-max-content;
+    width: max-content;
+    margin-left: 10%;
+  }
+  .card {
+    min-width: 750px;
+  }
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+}
+.card-gap {
+  margin-left: 10%;
+}
+
 @media screen and (max-width: 768px) {
   .offset-md-2 {
     text-align: center;
