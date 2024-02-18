@@ -112,6 +112,9 @@
         padding: 0;
 
     }
+    .card-gap {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -185,5 +188,8 @@
         margin: 0;
         padding: 0;
 
+    }
+    .card-gap {
+        margin-left: 0;
     }
 }
