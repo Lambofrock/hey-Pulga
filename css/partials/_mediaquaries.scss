@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .offset-md-2 {
         text-align: center;
     }
@@ -12,11 +12,12 @@
             "hombre"
             "mujer";
         height: auto;
-        width:auto;
-        .hijo{
+        width: auto;
+
+        .hijo {
             width: 100vh;
         }
-    
+
     }
 
     .alinear {
@@ -27,12 +28,8 @@
         text-align: center;
     }
 
+    .margin-cuenta {
 
-    .text-familia {
-     
-    }
-    .margin-cuenta{
-       
         margin-left: 25%;
         margin-right: auto;
     }
@@ -49,24 +46,27 @@
     .card {
         min-width: 750px;
     }
-    .acordeon{
-        
-     }
-     .reel-alinear{
-      margin-inline: 27%;
-    
-     }
-     .media-phone{
+
+    .acordeon {}
+
+    .reel-alinear {
+        margin-inline: 27%;
+
+    }
+
+    .media-phone {
         display: flex;
         flex-direction: column;
         margin-inline: 25%;
-     }
-     .container-fluid{
+    }
+
+    .container-fluid {
         margin: 0;
         padding: 0;
 
-     }
+    }
 }
+
 @media screen and (max-width: 480px) {
     .offset-md-2 {
         text-align: center;
@@ -81,11 +81,12 @@
             "hombre"
             "mujer";
         height: auto;
-        width:auto;
-        .hijo{
+        width: auto;
+
+        .hijo {
             width: 100vh;
         }
-    
+
     }
 
     .alinear {
@@ -104,10 +105,11 @@
     .margin-left {
         margin-inline: auto;
     }
-    .margin-cuenta{
+
+    .margin-cuenta {
         margin-left: 10%;
     }
-    
+
 
     .disponibilidad {
         width: max-content;
@@ -116,22 +118,25 @@
     .card {
         min-width: 460px;
     }
-    .acordeon{
-        margin-inline: 0
-        ;
-     }
-     .reel-alinear{
-      margin-inline: 13%;
-    
-     }
-     .media-phone{
+
+    .acordeon {
+        margin-inline: 0;
+    }
+
+    .reel-alinear {
+        margin-inline: 13%;
+
+    }
+
+    .media-phone {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-     }
-     .container-fluid{
+        margin-inline: 25%;
+    }
+
+    .container-fluid {
         margin: 0;
         padding: 0;
 
-     }
+    }
 }

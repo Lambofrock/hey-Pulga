@@ -183,6 +183,10 @@ body {
   align-items: center;
 }
 
+.disponibilidad {
+  width: 200px;
+}
+
 .link {
   text-decoration: none;
   color: black;
@@ -321,7 +325,7 @@ a {
   .media-phone {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    margin-inline: 25%;
   }
   .container-fluid {
     margin: 0;
