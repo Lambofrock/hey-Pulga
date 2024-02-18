@@ -10,9 +10,9 @@
     padding: 10px;
 
 }
-.row{
-    margin-inline: 0
-    ;
+
+.row {
+    margin-inline: 0;
 }
 
 .weare {
@@ -36,28 +36,34 @@
 }
 
 .margin-left {
-    margin-left: 450px;
+    margin-inline: 25%;
     margin-bottom: 20px;
+}
+.margin-cuenta{
+    margin-left: 35%;
 }
 
 .card-gap {
     margin: 10px;
 }
+
 .alinear {
     margin-top: 150px;
     margin-inline: 0;
-    
+
 }
-.acordeon{
-    margin-inline: 400px
-    ;
+
+.acordeon {
+    margin-inline: 25%;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.img-cuenta{
-    width: 100%    
+
+.img-cuenta {
+    width: 100%
 }
-.media-alinear{
+
+.media-alinear {
     display: flex;
     flex-direction: column;
     justify-content: center;

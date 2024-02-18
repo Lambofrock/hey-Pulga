@@ -1,4 +1,72 @@
+@media screen and (max-width: 768px){
+    .offset-md-2 {
+        text-align: center;
+    }
 
+    .grilla-inicio {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat 4, 1fr;
+        grid-template-areas:
+            "niño"
+            "match"
+            "hombre"
+            "mujer";
+        height: auto;
+        width:auto;
+        .hijo{
+            width: 100vh;
+        }
+    
+    }
+
+    .alinear {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+    .text-familia {
+     
+    }
+    .margin-cuenta{
+       
+        margin-left: 25%;
+        margin-right: auto;
+    }
+
+    .margin-left {
+        margin-inline: 25%;
+        margin-right: auto;
+    }
+
+    .disponibilidad {
+        width: max-content;
+    }
+
+    .card {
+        min-width: 750px;
+    }
+    .acordeon{
+        
+     }
+     .reel-alinear{
+      margin-inline: 27%;
+    
+     }
+     .media-phone{
+        display: flex;
+        flex-direction: column;
+        margin-inline: 25%;
+     }
+     .container-fluid{
+        margin: 0;
+        padding: 0;
+
+     }
+}
 @media screen and (max-width: 480px) {
     .offset-md-2 {
         text-align: center;
@@ -36,70 +104,10 @@
     .margin-left {
         margin-inline: auto;
     }
-
-    .disponibilidad {
-        width: max-content;
+    .margin-cuenta{
+        margin-left: 10%;
     }
-
-    .card {
-        min-width: 460px;
-    }
-    .acordeon{
-        margin-inline: 0
-        ;
-     }
-     .reel-alinear{
-      margin-inline: 13%;
     
-     }
-     .media-phone{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-     }
-     .container-fluid{
-        margin: 0;
-        padding: 0;
-
-     }
-}
-@media screen and (max-width: 768px){
-    .offset-md-2 {
-        text-align: center;
-    }
-
-    .grilla-inicio {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat 4, 1fr;
-        grid-template-areas:
-            "niño"
-            "match"
-            "hombre"
-            "mujer";
-        height: auto;
-        width:auto;
-        .hijo{
-            width: 100vh;
-        }
-    
-    }
-
-    .alinear {
-        display: flex;
-        flex-direction: column;
-        margin-inline: 0;
-        margin-top: 20px;
-        text-align: center;
-    }
-
-
-    .text-familia {
-        margin-inline: 0;
-    }
-
-    .margin-left {
-        margin-inline: auto;
-    }
 
     .disponibilidad {
         width: max-content;
