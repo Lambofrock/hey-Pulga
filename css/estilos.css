@@ -264,11 +264,10 @@ a {
     margin: 0;
     padding: 0;
   }
+  .card-gap {
+    margin-left: 10%;
+  }
 }
-.card-gap {
-  margin-left: 10%;
-}
-
 @media screen and (max-width: 768px) {
   .offset-md-2 {
     text-align: center;
