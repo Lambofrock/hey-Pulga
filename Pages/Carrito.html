@@ -8,7 +8,8 @@
     <meta name="description" content="Ve lo que puedes vestir el dia de mañana!">
     <meta name="keywords"
         content="Carrito de compras, Carrito online, Compra en línea, Agregar al carrito, Cesta de compras, Checkout, Pago seguro, Carrito de compra virtual, Finalizar compra, Artículos en el carrito, Comprar ahora, Confirmar pedido, Proceso de pago, Detalles del carrito, Resumen de compra, Compras en línea, Carrito de la tienda, Cantidad de productos, Revisar carrito, Artículos seleccionados, Compra segura, Pasarela de pago, Continuar con la compra, Ver carrito, Productos en el carrito">
-        <link rel="icon" type="image/jpg" href="../img/Logo.jpg">
+    <link rel="icon" type="image/jpg" href="../img/Logo.jpg">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -17,7 +18,7 @@
 </head>
 
 <body>
-    <header class="header ">
+    <header class="header">
         <div>
             <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
                 <div class="container-fluid">
@@ -64,8 +65,78 @@
             </nav>
         </div>
     </header>
-    <main>
-        En mantencion hasta que sepa armar un carro de compras :)
+    <main class="wrapper">
+        <aside>
+            <nav>
+                <ul>
+                    <li><a  class=" boton-menu-active boton-menu boton-volver acveti" href="/Pages/nino.html">
+                            <i class="bi bi-skip-backward-fill" ></i>agregar items</li>
+                    <li><a class="boton-menu boton-carrito" href="/Pages/carrito.html">
+                            <i class="bi bi-cart4"></i>carrito </a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="main">
+            <h2>carrito</h2>
+            <div class="contenedor-carrito">
+                <p class="carrito-vacio disable">carrito vacio </i></p>
+            </div>
+            <div class="carrito-productos disable">
+                <div class="carrito-producto">
+                    <img class="carrito-producto-imagen" src="/img/navidad3.jpg" alt="">
+                    <div class="carrito-titulo">
+                        <small>titulo</small>
+                        <h3>ropa 01</h3>
+                    </div>
+                    <div class="carrito-producto-cantidad">
+                        <small>cantidad</small>
+                        <p>1
+                        </p>
+                    </div>
+                    <div class="carrito-producto-precio">
+                        <small>precio</small>
+                        <p>$20.000</p>
+                    </div>
+                    <div class="carrito-producto-subtotal">
+                        <small>subtotal</small>
+                        <p>$20.000</p>
+                    </div>
+                    <button class="carrito-producto-eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+                <div class="carrito-producto">
+                    <img class="carrito-producto-imagen" src="/img/navidad3.jpg" alt="">
+                    <div class="carrito-titulo">
+                        <small>titulo</small>
+                        <h3>ropa 02</h3>
+                    </div>
+                    <div class="carrito-producto-cantidad">
+                        <small>cantidad</small>
+                        <p>2</p>
+                    </div>
+                    <div class="carrito-producto-precio">
+                        <small>precio</small>
+                        <p>$20.000</p>
+                    </div>
+                    <div class="carrito-producto-subtotal">
+                        <small>subtotal</small>
+                        <p>$40.000</p>
+                    </div>
+                    <button class="carrito-producto-eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+            <div class="carrito-acciones disable">
+                <div class="carrito-acciones-izq"><button class="carrito-acciones-vaciar">vaciar carrito</button> </div>
+                <div class="carrito-acciones-der">
+                    <div class="carrito-acciones-total">
+                        <p>total</p>
+                        <p id="total">$40.000</p>
+                    </div>
+                    <button class="carrito-acciones-comprar">comprar ahora</button>
+                </div>
+            </div>
+        </div>
+
+
     </main>
     <footer>
         <div class="footerend ">
@@ -83,6 +154,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="../javascript/data.js"></script>
+    <script src="../javascript/main.js"></script>
 </body>
 
 </html>
