@@ -72,5 +72,10 @@ function agregarAlCarrito(e) {
 
     }
  
-
+actualizarNumero();
 } 
+function actualizarNumero(){
+    let nuevoNumero = productosEnCarrito.reduce((acc,producto) => acc + producto.cantidad,0);
+    nuevoNumero.innerText = nuevoNumero;
+
+}
