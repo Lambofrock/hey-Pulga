@@ -1,10 +1,12 @@
-const productosEnCarrito = JSON.parse(localStorage.getItem("productos-en-carrito"));
+
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategoria = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numero = document.querySelector("#numero");
+
+
 function cargarProductos(productosElegidos) {
     contenedorProductos.innerHTML = "";
     productosElegidos.forEach(producto => {
@@ -19,14 +21,12 @@ function cargarProductos(productosElegidos) {
     </div>
     `;
         contenedorProductos.append(div);
-
     })
     actualizarBotonesAgregar();
-  
-
 }
-
 cargarProductos(productos);
+
+
 
 botonesCategoria.forEach(boton => {
     boton.addEventListener("click", (e) => {
@@ -55,31 +55,46 @@ function actualizarBotonesAgregar() {
     })
 
 }
+let productosEnCarrito;
+
+let productosEnCarritoLs = localStorage.getItem("productos-en-carrito");
+
+if (productosEnCarritoLs){
+    productosEnCarrito = JSON.parse(productosEnCarritoLs);
+   actualizarNumero();
+}else{
+    productosEnCarrito=[];
+}
+
+
+console.log(productosEnCarrito)
 
 
 function agregarAlCarrito(e) {
 
     const idboton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idboton)
+
     if (productosEnCarrito.some(producto => producto.id === idboton)) {
         const index = productosEnCarrito.findIndex(producto => producto.id === idboton);
-       productosEnCarrito[index].cantidad++;
+        productosEnCarrito[index].cantidad++;
 
     }
     else {
         productoAgregado.cantidad = 1;
         productosEnCarrito.push(productoAgregado)
-       
+
 
     }
- 
-actualizarNumero();
-localStorage.setItem("productos-en-carrito",JSON.stringify(productosEnCarrito));
-} 
+    actualizarNumero();
+localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito))
+}
 
-// //function actualizarNumero(){
-//     let nuevoNumero = productosEnCarrito.reduce((acc,producto) => acc + producto.cantidad,0);numero.innerText = nuevoNumero;
+function actualizarNumero(){
+     let nuevoNumero = productosEnCarrito.reduce((acc,producto) => acc + producto.cantidad,0);
+     numero.innerText = nuevoNumero;
 
-// }//
+ }
 
 
+ console.log(productosEnCarrito)
